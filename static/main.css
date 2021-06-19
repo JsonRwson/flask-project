@@ -1,0 +1,10 @@
+h1 { color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 70px; font-weight: 300; line-height: 90px; margin: 0 0 58px; }
+h2 { color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
+h3 { color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
+p { color: #000000; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 26px; margin: 0; }
+
+a:hover { color: #ffffff }
+
+.date { background: #fe921f; color: #ffffff; display: inline-block; font-family: 'Lato', sans-serif; font-size: 12px; font-weight: bold; line-height: 12px; letter-spacing: 1px; margin: 0 0 30px; padding: 10px 15px 8px; text-transform: uppercase; }
+
+body {background-color: #ffffff;}
