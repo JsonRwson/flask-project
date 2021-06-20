@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
-comments=[
+comments = [
 {
     'title': 'Reliable',
     'name': 'Donald',
@@ -12,7 +12,13 @@ comments=[
     'title': 'Awesome software',
     'name': 'Macklemore',
     'comment': 'Really gets the job done',
-    'date_posted': '27/08/2020'   
+    'date_posted': '27/08/2020'
+},
+{
+    'title': 'i am literally floppa',
+    'name': 'floppa',
+    'comment': 'i actual do not care',
+    'date_posted': '02/03/1974'
 }
 ]
 
@@ -35,4 +41,4 @@ def download():
 
 
 if __name__=='__main__':
-    app.run(host="0.0.0.0", ssl_context='adhoc')
+    app.run(host='0.0.0.0', port='443', ssl_context=('/etc/letsencrypt/live/jayjay8182.tk/fullchain.pem', '/etc/letsencrypt/live/jayjay8182.tk/privkey.pem'))
