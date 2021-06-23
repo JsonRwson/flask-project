@@ -20,4 +20,4 @@ def Projects():
 
 
 if __name__=='__main__':
-    app.run(host="0.0.0.0", port="80")
+    app.run(host="0.0.0.0", port="80", ssl_context=('/etc/letsencrypt/live/jayjay8182.tk/fullchain.pem, '/etc/letsencrypt/live/jayjay8182.tk/privkey.pem'))
