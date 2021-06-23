@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{%block content%}
+<center>
+<body>
+    <br>
+    <br>
+</body>
+</center>
+
+{% endblock%}
