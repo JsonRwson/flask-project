@@ -6,14 +6,6 @@ app = Flask(__name__)
 def Home():
     return render_template('Home.html')
 
-@app.route('/Socials')
-def Socials():
-    return render_template('Socials.html')
-
-@app.route('/Github')
-def Github():
-    return render_template('Github.html')
-
 @app.route('/Projects')
 def Projects():
     return render_template('Projects.html')
